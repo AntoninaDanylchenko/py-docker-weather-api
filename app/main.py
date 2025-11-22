@@ -9,7 +9,7 @@ CITY = "Paris"
 def get_weather() -> None:
     api_key = os.environ.get("API_KEY")
     if not api_key:
-        raise RuntimeError("WEATHER_API_KEY not provided!")
+        raise RuntimeError("API_KEY not provided!")
 
     params = {"key": api_key, "q": CITY}
 
