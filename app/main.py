@@ -2,8 +2,8 @@ import os
 import requests
 
 
-URL = f"http://api.weatherapi.com/v1/current.json"
-CITY="Paris"
+URL = "http://api.weatherapi.com/v1/current.json"
+CITY = "Paris"
 
 
 def get_weather() -> None:
